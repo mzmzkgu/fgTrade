@@ -967,7 +967,7 @@ function setCurrency(v){
   if(STATE.sheetData) render();
 }
 function apiUrl(path){
-  const base = STATE.api || '';
+  const base = STATE.api || 'https://kgu3405.tplinkdns.com';
   return base + path;
 }
 async function api(path, opts={}){
